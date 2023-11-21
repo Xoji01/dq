@@ -1,4 +1,6 @@
-butt.onclick = function() {
-    let val = document.getElementById('input1').value;
-    console.log(val);;
-};
+let inputt = document.querySelector('[name="name"]')
+let butt = document.querySelector('button')
+
+butt.onclick=()=>{
+    console.log((inputt.value));
+}
